@@ -41,7 +41,14 @@ h1, h2, h3, h4, h5, h6, p{
     top: 0;
     }
     }
-
+.navbar-toggler i{
+    color: blue;
+    outline: none;
+    border: none;
+}
+.navbar-toggler i:hover{
+    color: red;
+}
 .nav-item{
     font-size: 20px;
     font-weight: 700;

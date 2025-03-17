@@ -1,4 +1,27 @@
 @media (min-width:320px) and (max-width:575px) {
+
+/* Header Part Start */
+
+.navbar-nav {
+    text-align: center;
+    background: red;
+    border-radius: 10px;
+}
+.nav-item {
+    font-size: 16px;
+    padding: 1px;
+}
+.nav-link{
+    color: #ffffff;
+}
+.nav-link:nover{
+    color: blueviolet;
+}
+.home{
+    color: blue;
+}
+
+
     .bgImages {
         padding-top: 127px;
         padding-bottom: 60px;
@@ -23,6 +46,7 @@
     .bannerText h1 {
         font-size: 17px;
         padding-top: 10px;
+        padding-right: 100px;
     }
     .bannerText p {
         font-size: 11px;
@@ -43,7 +67,16 @@
         top: 57%;
         right: 10px;
     }
-
+    .bannerVideo {
+        height: 30px;
+        width: 30px;
+        background: #ffffff;
+        bottom: -40px;
+        left: 39%;
+    }
+    .bannerVideo i {
+      margin-top: 0;
+    }
 
     /* Banner Part End */
 
@@ -56,9 +89,12 @@
     }
     .commonTitle h3 {
         font-size: 21px;
+        text-align: center;
     }
 
-
+    .commonTitle p {
+        font-size: 15px;
+    }
 
 
 
@@ -104,35 +140,198 @@
     .deluxeText {
         padding-top: 28px;
     }
-
-
-    /* News Part Start */
-
-    .img-fluid {
-        padding-top: 230px;
+    .cardText h4 {
+        font-size: 20px;
+        line-height: 120%;
     }
-    .newsText h3 {
+    .cardText p {
         font-size: 16px;
     }
-    .newsText {
-        top: 104%;
-        left: 0;
+    .livingOverly {
+        padding-top: 35px;
+
     }
-    .newsText {
-        width: 300px;
-        padding: 20px;
+    
+    .livingLeft {
+        top: -80px;
+        right: 50%;
+        padding: 10px 20px;
+        font-size: 20px;
+
     }
-    .newsIcon span {
-        font-size: 10px;
-        padding-right: 15px;
+    .livingright {
+        top: -80px;
+        right: 28%;
+        padding: 10px 20px;
+        font-size: 20px;
     }
 
-    .newsTexts {
-        width: 256px;
-        padding: 20px;
-        left: 25px;
-        bottom: -140px;
+     /* liveing Part End  */
+
+     /* Building Part Start  */
+     #buildingPart {
+        padding: 35px 0;
+    }
+     .buildingIcon {
+        width: 20px;
+        height: 20px;
+    }
+    .buildingIcon i {
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .buildingText h3 {
+        font-size: 13px;
+        padding-right: 130px;
+    }
+    .buildingVideo {
+        width: 30px;
+        height: 30px;
+    }
+    .buildingVideo i {
+        font-size: 25px;
+        margin-top: 3px;
     }
 
-     /* News Part End*/
+     /* Building Part End  */
+     .apartmentFlex {
+        margin-top: 50px;
+    }
+     .apartmentHeader {
+        width: 12%;
+        margin: 9px;
+    }
+    .apartmentHeader h3 {
+        font-size: 11px;
+        line-height: 120%;
+    }
+    .apratmentText {
+        margin-top: 30px;
+    }
+
+   
+     /* Service Part Start */
+
+     #servicePart {
+        padding: 30px 0;
+    }
+
+    .serviceCard h3 {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    .serviceCard p {
+        font-size: 14px;
+        
+    }
+    .serviceCard a {
+        font-size: 15px;
+        padding: 25px 0;
+    }
+    /* Service Part End */
+
+
+
+
+     #aminitiesPart {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+
+        /* News Part Start */
+        #apartmentPart {
+            padding-bottom: 0px;
+        }
+        .img-fluid {
+            padding-top: 200px;
+        }
+        .blogIcon span {
+            font-size: 9px;
+        }
+        .newsTexts h4 {
+            font-size: 15px;
+        }
+        .newsTexts a {
+            font-size: 15px;
+        }
+        .blogIcon i {
+            font-size: 9px;
+        }
+        .newsText h3 {
+            font-size: 16px;
+        }
+        .newsText {
+            top: 104%;
+            left: 0;
+        }
+        .newsText {
+            width: 300px;
+            padding: 20px;
+        }
+        .newsIcon span {
+            font-size: 10px;
+            padding-right: 15px;
+        }
+        .newsIcon i {
+            font-size: 10px;
+        }
+        .newsText a {
+            font-size: 15px;
+        }
+    
+        .newsTexts {
+            width: 285px;
+            padding: 20px;
+            left: 9px;
+            bottom: -140px;
+        }
+
+    
+         /* News Part End*/
+
+
+
+         /* Footer Part Start  */
+
+         #footerPart {
+            padding: 50px 0;
+            margin-top: 50px;
+        }
+        .footerText p {
+            font-size: 15px;
+            padding-right: 50px;
+        }
+        .footerIcon {
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .footerText li {
+            padding-top: 10px;
+        }
+        .footerText a {
+            font-size: 14px;
+        }
+        .footerSearch input {
+            width: 300px;
+
+        }
+        .footerSearch a {
+            top: 5px;
+            font-size: 14px;
+
+        }
+
+        .Back-to-top a {
+            padding: 8px 12px;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+        .Back-to-top {
+            right: 10px;
+            bottom: 20px;
+        }
 }
