@@ -1,0 +1,138 @@
+@media (min-width:320px) and (max-width:575px) {
+    .bgImages {
+        padding-top: 127px;
+        padding-bottom: 60px;
+    }
+    .bgimg {
+        padding-top: 127px;
+        padding-bottom: 60px;
+    }
+
+    .bannerPosition img {
+        width: 80px;
+    }
+    .bannerPosition {
+        top: 67px;
+        left: 0;
+    }
+
+    .bannerText h6 {
+        font-size: 10px;
+        padding-left: 26px;
+    }
+    .bannerText h1 {
+        font-size: 17px;
+        padding-top: 10px;
+    }
+    .bannerText p {
+        font-size: 11px;
+        padding: 19px 137px 25px 0;
+        line-height: 137%;
+    }
+    .commonBtn a {
+        padding: 10px 8px;
+        font-size: 10px;
+    }
+    .prev {
+        font-size: 20px;
+        top: 57%;
+        left: 10px;
+    }
+    .next {
+        font-size: 20px;
+        top: 57%;
+        right: 10px;
+    }
+
+
+    /* Banner Part End */
+
+    #aboutPart {
+        padding: 46px 0;
+    }
+    .commonTitle h6 {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .commonTitle h3 {
+        font-size: 21px;
+    }
+
+
+
+
+
+    /* liveing Part Start  */
+
+    .livingSlider {
+        width: 321px;
+        padding: 10px;
+        left: 0;
+    }
+    .livingImg {
+        padding: 138px 0;
+    }
+    .livingTitle h6 {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .livingTitle h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .livingText h3 {
+        font-size: 13px;
+    }
+    .livingText p {
+        font-size: 10px;
+    }
+    .livingBg {
+        padding: 30px;
+    }
+    .livingText {
+        padding-bottom: 38px;
+    }
+    .deluxeText span {
+        letter-spacing: -2px;
+    }
+    .deluxeText h3 {
+        font-size: 14px;
+    }
+    .deluxeText p {
+        font-size: 13px;
+    }
+    .deluxeText {
+        padding-top: 28px;
+    }
+
+
+    /* News Part Start */
+
+    .img-fluid {
+        padding-top: 230px;
+    }
+    .newsText h3 {
+        font-size: 16px;
+    }
+    .newsText {
+        top: 104%;
+        left: 0;
+    }
+    .newsText {
+        width: 300px;
+        padding: 20px;
+    }
+    .newsIcon span {
+        font-size: 10px;
+        padding-right: 15px;
+    }
+
+    .newsTexts {
+        width: 256px;
+        padding: 20px;
+        left: 25px;
+        bottom: -140px;
+    }
+
+     /* News Part End*/
+}
